@@ -1,0 +1,32 @@
+{
+  "name": "github-add",
+  "version": "1.0.0",
+  "description": "A lightweight node application that adds users to the github org",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfbrigade/github-add.git"
+  },
+  "author": "Trent Oswald <trentoswald@therebelrobot.com> (@therebelrobot)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfbrigade/github-add/issues"
+  },
+  "homepage": "https://github.com/sfbrigade/github-add#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.13.4",
+    "github": "^0.2.4",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "morgan": "^1.7.0",
+    "node-sass-middleware": "^0.9.7"
+  }
+}
