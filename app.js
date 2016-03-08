@@ -80,6 +80,6 @@ function postUser (req, res, next) {
     }
   }, function (err, response, body) {
     console.log(err, body)
-    res.redirect('/')
+    res.redirect('http://github.com/'+process.env.GITHUB_ORG)
   })
 }
