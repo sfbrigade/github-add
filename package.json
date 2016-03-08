@@ -4,6 +4,7 @@
   "description": "A lightweight node application that adds users to the github org",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "mocha"
   },
   "repository": {
